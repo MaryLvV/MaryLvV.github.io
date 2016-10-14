@@ -29,5 +29,5 @@ I earned this certification over an 18-month period from August 2014 to February
 
 - My hypothesis in this study was that we would see societal learned helplessness as evidenced by both a muting of sentiment (particularly anger) and a decline overall in response to these events.
 
-- You can read more about the data pipeline for this project here (datapipeline.pptx)
+- You can read more about the data pipeline for this project here (https://marylvv.github.io/datapipeline.pptx)
 
