@@ -20,7 +20,14 @@ I earned this certification over an 18-month period from August 2014 to February
 
 <h1 style = "color: darkblue; font-size: 16pt"> Lipscomb MSDS Project </h1>
 <h2 style = "color: steelblue; font-size: 12pt"> Sentiment Analysis of Twitter Data & Newspaper Letters-to-the-Editor to Detect Learned Helplessness in the Public Sphere </h2>
-- For the thesis project, I performed sentiment analysis on tweets and newspaper letters-to-the-editor that were published in the 30 days following mass school shootings (shootings in which 4 or more people were killed).  My hypothesis in this study was that we would see societal learned helplessness as evidenced by both a muting of sentiment (particularly anger) and a decline overall in response to these events.
+- For the thesis project, I performed sentiment analysis on tweets and newspaper letters-to-the-editor that were published in the 30 days following mass school shootings (shootings in which 4 or more people were killed) at
+    - Columbine High School (Littleton, CO) April 20, 1999
+    - Amish School (Nickel Mines, PA) October 2, 2006 
+    - Virginia Tech (Blacksburg, VA) April 16, 2007 
+    - Sandy Hook Elementary (Newtown, CT) December 14, 2012 
+    - Umpqua Community College (Roseburg, OR) October 1, 2015 
 
-You can read more about the data pipeline for this project here (datapipeline.pptx)
+- My hypothesis in this study was that we would see societal learned helplessness as evidenced by both a muting of sentiment (particularly anger) and a decline overall in response to these events.
+
+- You can read more about the data pipeline for this project here (datapipeline.pptx)
 
