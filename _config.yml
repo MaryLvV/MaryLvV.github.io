@@ -1,8 +1,9 @@
-title: Mary van Valkenburg
-description: Data Projects
+title: "Mary van Valkenburg"
+avatar: "/assets/images/mary-tree.jpg"
 google_analytics: 
-show_downloads: false
+location: "Nashville, TN"
 theme: jekyll-theme-minimal
-
+twitter: "@MaryLvV"
+LinkedIn: 
 gems:
   - jekyll-mentions
