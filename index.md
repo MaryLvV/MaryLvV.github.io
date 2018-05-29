@@ -17,7 +17,7 @@ Our hypothesis in this study was that we would see societal learned helplessness
 This certification included coursework on Getting and Cleaning Data, Exploratory Data Analysis, Reproducible Research, Statistical Inference, Regression Models, Machine Learning, and Developing Data Products using the R programming language. Below are three projects I completed on as part of this effort.
 
 #### Predicting Correctness of Technique for Weightlifters
-This prediction exercise (/PML_Project.html) was part of the Practical Machine Learning course. A model was trained using Random Forest to predict the correctness of technique given feedback data collected from wearable sensors that showed an individual’s weightlifting mechanics. The data is available [online.](http://groupware.les.inf.puc-rio.br/har/)
+This [prediction exercise](/PML_Project.html) was part of the Practical Machine Learning course. A model was trained using Random Forest to predict the correctness of technique given feedback data collected from wearable sensors that showed an individual’s weightlifting mechanics.
 
 #### Shiny Vendor Payments
 [My first Shiny app](https://marylvv.shinyapps.io/Shiny-VendorPayments/) was a simple data filter to view payments to vendors by the state of Tennessee by agency and fiscal year.
