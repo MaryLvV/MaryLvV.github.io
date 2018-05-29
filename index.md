@@ -34,4 +34,4 @@ This [prediction exercise](/PML_Project.html) was part of the Practical Machine 
 Using [Nashville Open Data](https://data.nashville.gov/), and [Carto](https://carto.com/) maps, I created [this visualization](https://bit.ly/nashvillechickens) of where the chickens are.
 
 #### Exploring My Google Search History
-I wanted to see what I'd been searching for in 2016 and 2017. [This](https://github.com/MaryLvV/Search-Me/blob/master/google_search.html) knitted RMD file tells the story.
+I wanted to see what I'd been searching for in 2016 and 2017. [This](/google_search.html) knitted RMD file tells the story.
