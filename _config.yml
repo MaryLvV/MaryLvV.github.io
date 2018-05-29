@@ -1,9 +1,14 @@
-title: "Mary van Valkenburg"
+title: "Data Playground"
+
+name: "Mary van Valkenburg"
 avatar: "/assets/images/mary-tree.jpg"
 google_analytics: 
 location: "Nashville, TN"
 theme: jekyll-theme-minimal
-twitter: "@MaryLvV"
-LinkedIn: 
+twitter:
+  username: "MaryLvV"
+links:
+  - "https://www.linkedin.com/in/marylvv/"
+  - "http://nashvillesoftwareschool.com/community/instructors/"
 gems:
   - jekyll-mentions
