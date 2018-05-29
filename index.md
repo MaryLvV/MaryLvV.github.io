@@ -9,7 +9,7 @@ For the thesis project, with my research partner, I performed sentiment analysis
  - Sandy Hook Elementary (Newtown, CT) December 14, 2012
  - Umpqua Community College (Roseburg, OR) October 1, 2015
 
-Our hypothesis in this study was that we would see societal learned helplessness as evidenced by both a muting of sentiment (particularly anger) and a decline overall in response to these events. You can read more about the data pipeline for this project here http://bit.ly/schoolshootingdata
+Our hypothesis in this study was that we would see societal learned helplessness as evidenced by both a muting of sentiment (particularly anger) and a decline overall in response to these events. You can read more about the data pipeline for this project [here.](http://bit.ly/schoolshootingdata)
 
 <hr>
 
@@ -17,18 +17,18 @@ Our hypothesis in this study was that we would see societal learned helplessness
 This certification included coursework on Getting and Cleaning Data, Exploratory Data Analysis, Reproducible Research, Statistical Inference, Regression Models, Machine Learning, and Developing Data Products using the R programming language. Below are three projects I completed on as part of this effort.
 
 #### Predicting Correctness of Technique for Weightlifters
-This prediction exercise (/PML_Project.html) was part of the Practical Machine Learning course. A model was trained using Random Forest to predict the correctness of technique given feedback data collected from wearable sensors that showed an individual’s weightlifting mechanics. The data is available online at http://groupware.les.inf.puc-rio.br/har/
+This prediction exercise (/PML_Project.html) was part of the Practical Machine Learning course. A model was trained using Random Forest to predict the correctness of technique given feedback data collected from wearable sensors that showed an individual’s weightlifting mechanics. The data is available [online.](http://groupware.les.inf.puc-rio.br/har/)
 
 #### Shiny Vendor Payments
-My first Shiny app was a simple data filter to view payments to vendors by the state of Tennessee by agency and fiscal year https://marylvv.shinyapps.io/Shiny-VendorPayments/
+[My first Shiny app](https://marylvv.shinyapps.io/Shiny-VendorPayments/) was a simple data filter to view payments to vendors by the state of Tennessee by agency and fiscal year.
 
 
 #### Predict-A-Tron 3000
-My second Shiny app was part of the specialization’s capstone project. It implements a next word prediction algorithm I constructed based on the Markov assumption. The data for this project originated in three separate corpora of tweets, news, and blog posts. After creating tables of n-grams and their frequency counts, the algorithm applies Katz’s backoff principle (searching the last three words in the 4-gram table, followed by a search of the last two words in the trigram table, and finally the last single word in the bigram table) to find the most likely next word given the input text. https://marylvv.shinyapps.io/PredictATron3000/
+[My second Shiny app](https://marylvv.shinyapps.io/PredictATron3000/) was part of the specialization’s capstone project. It implements a next word prediction algorithm I constructed based on the Markov assumption. The data for this project originated in three separate corpora of tweets, news, and blog posts. After creating tables of n-grams and their frequency counts, the algorithm applies Katz’s backoff principle (searching the last three words in the 4-gram table, followed by a search of the last two words in the trigram table, and finally the last single word in the bigram table) to find the most likely next word given the input text. 
 
 <hr>
 
 ### Just for fun
 
 #### Chicken Permits in Metro Nashville
-Using Nashville Open Data: https://data.nashville.gov/
+Using [Nashville Open Data](https://data.nashville.gov/), and [Carto](https://carto.com/) maps, I created [this visualization](https://bit.ly/nashvillechickens) of where the chickens are.
