@@ -47,3 +47,4 @@ I wanted to see what I'd been searching for in 2016 and 2017.
 <a href = "scooter_html/july_avg_trip_per_scooter.html"> Avg trips for scooters in July</a>
 
 <a href = "scooter_html/RKJune.html"> Unknown scooters in June</a>
+<a href = "scooter_html/May_avg_idle_and_daily_trip.html"> Average idle times in May</a>
