@@ -1,3 +1,11 @@
+## Covid-19 in the US
+Using resources shared by<a href = "https://github.com/CSSEGISandData/COVID-19"> Johns Hopkins University</a> these maps are generated at points in time for reported cases of the Covid-19 2020 coronavirus pandemic.
+
+### March 14, 2020
+<a href = "./covid19_maps/status031420.html"> 1081 cases geocoded out of 1108 reported</a>
+
+
+
 ## Lipscomb MSDS Project
 The Lipscomb University Data Science Masters Program included coursework in Principles of Data Science, Information Structures, Principles of Statistical Analysis &amp; Decision Modeling, Research Methods, Big Data Management &amp; Analytics, Data Mining and Analysis, Predictive Analytics, Case Studies in Data Science, and a two part practicum in designing and executing a data science project. 
 
