@@ -62,5 +62,6 @@ I wanted to see what I'd been searching for in 2016 and 2017.
 <a href = "da1/COMP_PCT_mapped_stores.html "> Comp Percent heat map with JM store locations</a>
 
 ### Links for NSS Daytime Data Analytics Cohort 1 hubNashville Project
-<a href = "dda1/covid_map.html"> Covid-19 hubNashville Requests as of early May 2020</a>
+<a href = "dda1/covid_map.html"> Covid-19 hubNashville Requests as of early May 2020</a>   
+
 <a href = "dda1/covid_map.html"> Trash Related hubNashville Requests as of early May 2020</a>
