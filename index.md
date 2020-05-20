@@ -51,12 +51,16 @@ I wanted to see what I'd been searching for in 2016 and 2017.
 <a href="google_search.html" target="_blank">This knitted RMD file</a> tells the story.
 
 
-### Scooter Links for NSS Data Analytics Cohort 1 Project
-<a href = "scooter_html/july_avg_trip_per_scooter.html"> Avg trips for scooters in July</a>
+### Links for NSS Data Analytics Cohort 1 Scooter Project and Johnston & Murphy project
+<a href = "da1/july_avg_trip_per_scooter.html"> Avg trips for scooters in July</a>
 
-<a href = "scooter_html/RKJune.html"> Unknown scooters in June</a>  
+<a href = "da1/RKJune.html"> Unknown scooters in June</a>  
 
-<a href = "scooter_html/May_avg_idle_and_daily_trip.html"> Average idle times in May</a>
+<a href = "da1/May_avg_idle_and_daily_trip.html"> Average idle times in May</a>
 
 ### Link to JM map
-<a href = "scooter_html/COMP_PCT_mapped_stores.html "> Comp Percent heat map with JM store locations</a>
+<a href = "da1/COMP_PCT_mapped_stores.html "> Comp Percent heat map with JM store locations</a>
+
+### Links for NSS Daytime Data Analytics Cohort 1 hubNashville Project
+<a href = "dda1/covid_map.html"> Covid-19 hubNashville Requests as of early May 2020</a>
+<a href = "dda1/covid_map.html"> Trash Related hubNashville Requests as of early May 2020</a>
