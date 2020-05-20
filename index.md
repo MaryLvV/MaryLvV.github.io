@@ -64,4 +64,4 @@ I wanted to see what I'd been searching for in 2016 and 2017.
 ### Links for NSS Daytime Data Analytics Cohort 1 hubNashville Project
 <a href = "dda1/covid_map.html"> Covid-19 hubNashville Requests as of early May 2020</a>   
 
-<a href = "dda1/covid_map.html"> Trash Related hubNashville Requests as of early May 2020</a>
+<a href = "dda1/trash_request_map.html"> Trash Related hubNashville Requests as of early May 2020</a>
