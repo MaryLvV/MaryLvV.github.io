@@ -65,3 +65,7 @@ I wanted to see what I'd been searching for in 2016 and 2017.
 <a href = "dda1/covid_map.html"> Covid-19 hubNashville Requests as of early May 2020</a>   
 
 <a href = "dda1/trash_request_map.html"> Trash Related hubNashville Requests as of early May 2020</a>
+
+### Links for NSS Data Analytics Cohort 3 E911 Project
+<a href = "da3/dustin_march2020_tornado.html">911 Calls During March 2020 Tornado</a>
+<a href = "da3/dustin_may2020_derecho_map.html">911 Calls During May 2020 Derecho</a>
