@@ -70,3 +70,9 @@ I wanted to see what I'd been searching for in 2016 and 2017.
 <a href = "da3/dustin_march2020_tornado.html">911 Calls During March 2020 Tornado</a>  
 
 <a href = "da3/dustin_may2020_derecho_map.html">911 Calls During May 2020 Derecho</a>
+
+<a href = "da3/mark-Derecho-911-Calls-Map.html">911 Calls During May 2020 Derecho by zipcode</a>  
+
+<a href = "da3/mark-Tornado-911-Calls-Map.html">911 Calls During March 2020 Tornado by zipcode</a>
+
+
