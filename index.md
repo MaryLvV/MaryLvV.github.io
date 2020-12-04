@@ -1,13 +1,14 @@
 ## Hosted NSS Student Maps
 
-### Links for NSS Data Analytics Cohort 1 Scooter Project and Johnston & Murphy project
+### Links for NSS Data Analytics Cohort 1 
+ - Scooter Project  
 <a href = "da1/july_avg_trip_per_scooter.html"> Avg trips for scooters in July</a>
 
 <a href = "da1/RKJune.html"> Unknown scooters in June</a>  
 
 <a href = "da1/May_avg_idle_and_daily_trip.html"> Average idle times in May</a>
 
-### Link to JM map
+ - Johnston & Murphy project
 <a href = "da1/COMP_PCT_mapped_stores.html "> Comp Percent heat map with JM store locations</a>
 
 ### Links for NSS Daytime Data Analytics Cohort 1 hubNashville Project
