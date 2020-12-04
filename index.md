@@ -8,7 +8,7 @@
 
 <a href = "da1/May_avg_idle_and_daily_trip.html"> Average idle times in May</a>
 
- ### Links for DA1 Johnston & Murphy project
+### Links for DA1 Johnston & Murphy project
 <a href = "da1/COMP_PCT_mapped_stores.html "> Comp Percent heat map with JM store locations</a>
 
 ### Links for DDA1 hubNashville Project
