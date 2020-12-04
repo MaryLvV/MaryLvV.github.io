@@ -77,8 +77,7 @@ I wanted to see what I'd been searching for in 2016 and 2017.
 
 <a href = "da3/aaron_TornadoIncidentTypeTop10.html">Top 10 Incident Types March 2020 Tornado</a>
 
-### Link for NSS Data Analytics Cohort 3 Covid-19 Project
-<a href = "da3/outbreak_violations_map.html"> Locations of Covid-19 CLusters and Reported Violations </a>  
+
 
 ### Links for NSS Day Data Analytics Cohort 2 E911 Project
 <a href = "dda2/owen_nw_storms_cluster.html"> NW Davidson County Calls and Dispatches 2020 March Tornado and May Derecho</a>  
@@ -90,5 +89,9 @@ I wanted to see what I'd been searching for in 2016 and 2017.
 <a href = "dda2/ross_storm_economic_map.html"> Combined 2020 Tornado and Derecho calls by Zipcode + Census Tract with Economic Information</a>
 
 
+### Link for NSS Data Analytics Cohort 3 Covid-19 Project
+<a href = "da3/outbreak_violations_map.html"> Locations of Covid-19 Clusters and Reported Violations </a>  
 
+### Link for NSS Data Science Cohort 43 Covid-19 Project
+<a href = "ds4/maggi_mapincidents.html"> Locations of Covid-19 Clusters and Reported Violations </a>  
 
