@@ -42,7 +42,7 @@
 ### Link for NSS Data Analytics Cohort 3 Covid-19 Project
 <a href = "da3/outbreak_violations_map.html"> Locations of Covid-19 Clusters and Reported Violations </a>  
 
-### Link for NSS Data Science Cohort 43 Covid-19 Project
+### Link for NSS Data Science Cohort 4 Covid-19 Project
 <a href = "ds4/maggi_mapincidents.html"> Locations of Covid-19 Clusters and Reported Violations </a>  
 
 
