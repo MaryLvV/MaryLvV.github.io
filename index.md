@@ -1,22 +1,22 @@
 ## Hosted NSS Student Maps
 
-### Links for NSS Data Analytics Cohort 1 
- - Scooter Project  
+### Links for DA1 Scooter Project  
+
 <a href = "da1/july_avg_trip_per_scooter.html"> Avg trips for scooters in July</a>
 
 <a href = "da1/RKJune.html"> Unknown scooters in June</a>  
 
 <a href = "da1/May_avg_idle_and_daily_trip.html"> Average idle times in May</a>
 
- - Johnston & Murphy project
+ ### Links for DA1 Johnston & Murphy project
 <a href = "da1/COMP_PCT_mapped_stores.html "> Comp Percent heat map with JM store locations</a>
 
-### Links for NSS Daytime Data Analytics Cohort 1 hubNashville Project
+### Links for DDA1 hubNashville Project
 <a href = "dda1/covid_map.html"> Covid-19 hubNashville Requests as of early May 2020</a>   
 
 <a href = "dda1/trash_request_map.html"> Trash Related hubNashville Requests as of early May 2020</a>
 
-### Links for NSS Data Analytics Cohort 3 E911 Project
+### Links for DA3 E911 Project
 <a href = "da3/dustin_march2020_tornado.html">911 Calls During March 2020 Tornado</a>  
 
 <a href = "da3/dustin_may2020_derecho_map.html">911 Calls During May 2020 Derecho</a>
@@ -29,7 +29,7 @@
 
 
 
-### Links for NSS Day Data Analytics Cohort 2 E911 Project
+### Links for DDA2 E911 Project
 <a href = "dda2/owen_nw_storms_cluster.html"> NW Davidson County Calls and Dispatches 2020 March Tornado and May Derecho</a>  
 
 <a href = "dda2/paul_new_map_911_tornado.html">E911 Calls by ZipCode May 2020 Tornado</a>  
@@ -39,11 +39,12 @@
 <a href = "dda2/ross_storm_economic_map.html"> Combined 2020 Tornado and Derecho calls by Zipcode + Census Tract with Economic Information</a>
 
 
-### Link for NSS Data Analytics Cohort 3 Covid-19 Project
+### Link for DA3 Covid-19 Project
 <a href = "da3/outbreak_violations_map.html"> Locations of Covid-19 Clusters and Reported Violations </a>  
 
-### Link for NSS Data Science Cohort 4 Covid-19 Project
+### Link for DS4 Covid-19 Project
 <a href = "ds4/maggi_mapincidents.html"> Locations of Covid-19 Clusters and Reported Violations </a>  
+
 
 
 ## Lipscomb MSDS Project
