@@ -46,7 +46,8 @@
 <a href = "ds4/maggi_mapincidents.html"> Locations of Covid-19 Clusters and Reported Violations </a>  
 
 ### DDA2 SmileOn Project
-<a href = "dda2/jdcg_age_poverty_map.html">Age and Poverty Map</a>
+<a href = "dda2/jdcg_age_poverty_map.html">Age and Poverty Map</a>   
+
 <a href = "dda2/mia_big_four_map.html">Big Four Map</a>
 
 ## Lipscomb MSDS Project
