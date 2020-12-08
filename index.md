@@ -45,7 +45,9 @@
 ### DS4 Covid-19 Project
 <a href = "ds4/maggi_mapincidents.html"> Locations of Covid-19 Clusters and Reported Violations </a>  
 
-
+### DDA2 SmileOn Project
+<a href = "dda2/jdcg_age_poverty_map.html">Age and Poverty Map</a>
+<a href = "dda2/mia_big_four_map.html">Big Four Map</a>
 
 ## Lipscomb MSDS Project
 The Lipscomb University Data Science Masters Program included coursework in Principles of Data Science, Information Structures, Principles of Statistical Analysis &amp; Decision Modeling, Research Methods, Big Data Management &amp; Analytics, Data Mining and Analysis, Predictive Analytics, Case Studies in Data Science, and a two part practicum in designing and executing a data science project. 
