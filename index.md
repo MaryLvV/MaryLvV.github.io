@@ -50,6 +50,10 @@
 
 <a href = "dda2/mia_big_four_map.html">Big Four Map</a>
 
+### DA4 miscellaneous
+<a href = "da4/cluster_art_map_37201.html">JRR Map</a>
+
+
 ## Lipscomb MSDS Project
 The Lipscomb University Data Science Masters Program included coursework in Principles of Data Science, Information Structures, Principles of Statistical Analysis &amp; Decision Modeling, Research Methods, Big Data Management &amp; Analytics, Data Mining and Analysis, Predictive Analytics, Case Studies in Data Science, and a two part practicum in designing and executing a data science project. 
 
