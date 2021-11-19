@@ -55,7 +55,7 @@
 
 
 ## Lipscomb MSDS Project
-The Lipscomb University Data Science Masters Program included coursework in Principles of Data Science, Information Structures, Principles of Statistical Analysis &amp; Decision Modeling, Research Methods, Big Data Management &amp; Analytics, Data Mining and Analysis, Predictive Analytics, Case Studies in Data Science, and a two part practicum in designing and executing a data science project. 
+The Lipscomb University Data Science Masters Program included coursework in Principles of Data Science, Information Structures, Principles of Statistical Analysis &amp; Decision Modeling, Research Methods, Big Data Management &amp; Analytics, Data Mining and Analysis, Predictive Analytics, Case Studies in Data Science, and a two part practicum in designing and executing a data science project.
 
 ### Practicum - Sentiment Analysis of Twitter Data &amp; Newspaper Letters-to-the-Editor to Detect Learned Helplessness in the Public Sphere
 For the thesis project I performed, with my research partner, sentiment analysis on tweets and newspaper letters-to-the-editor that were published in the 30 days following mass school shootings (shootings in which 4 or more people were killed) at
@@ -65,7 +65,7 @@ For the thesis project I performed, with my research partner, sentiment analysis
  - Sandy Hook Elementary (Newtown, CT) December 14, 2012
  - Umpqua Community College (Roseburg, OR) October 1, 2015
 
-Our hypothesis in this study was that we would see societal learned helplessness as evidenced by a muting of sentiment (particularly anger) and an overall decline in response to these events. You can read more about the data pipeline for this project 
+Our hypothesis in this study was that we would see societal learned helplessness as evidenced by a muting of sentiment (particularly anger) and an overall decline in response to these events. You can read more about the data pipeline for this project
 <a href="http://bit.ly/schoolshootingdata" target="_blank">here.</a>
 
 <hr>
@@ -82,22 +82,25 @@ was a simple data filter to view payments to vendors by the state of Tennessee b
 
 
 ### Predict-A-Tron 3000
-<a href="https://marylvv.shinyapps.io/PredictATron3000/" target="_blank">My second Shiny app</a> was part of the specialization’s capstone project. It implements a next word prediction algorithm I constructed based on the Markov assumption. The data for this project originated in three separate corpora of tweets, news, and blog posts. After creating tables of n-grams and their frequency counts, the algorithm applies Katz’s backoff principle (searching the last three words in the 4-gram table, followed by a search of the last two words in the trigram table, and finally the last single word in the bigram table) to find the most likely next word given the input text. 
+<a href="https://marylvv.shinyapps.io/PredictATron3000/" target="_blank">My second Shiny app</a> was part of the specialization’s capstone project. It implements a next word prediction algorithm I constructed based on the Markov assumption. The data for this project originated in three separate corpora of tweets, news, and blog posts. After creating tables of n-grams and their frequency counts, the algorithm applies Katz’s backoff principle (searching the last three words in the 4-gram table, followed by a search of the last two words in the trigram table, and finally the last single word in the bigram table) to find the most likely next word given the input text.
 
 <hr>
 
 ## Just for fun
 
 ### Chicken Permits in Metro Nashville
-Using 
-<a href="https://data.nashville.gov/" target="_blank">Nashville Open Data</a> and 
-<a href="https://carto.com/" target="_blank">Carto maps</a>, I created 
+Using
+<a href="https://data.nashville.gov/" target="_blank">Nashville Open Data</a> and
+<a href="https://carto.com/" target="_blank">Carto maps</a>, I created
 <a href="https://bit.ly/nashvillechickens" target="_blank">this visualization</a> of where the chickens are.
 
 ### Exploring My Google Search History
-I wanted to see what I'd been searching for in 2016 and 2017. 
+I wanted to see what I'd been searching for in 2016 and 2017.
 <a href="google_search.html" target="_blank">This knitted RMD file</a> tells the story.
 
 
 ### powerbi test
 <a href = "powerbi-test.html">Test</a>
+
+### November 2021 Job Maps
+<a href = "jobmap.html"> NSS Employers as of November 2021</a>
