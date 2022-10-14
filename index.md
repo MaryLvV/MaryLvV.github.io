@@ -103,9 +103,10 @@ I wanted to see what I'd been searching for in 2016 and 2017.
 <a href = "powerbi-test.html">Test</a>
 
 ### November 2021 Job Maps
-<a href = "jobmap.html"> NSS Employers as of November 2021</a>  
+<a href = "nss/jobmap.html"> NSS Employers as of November 2021</a>  
 
-<a href = "jobmap_clusters.html"> Clustered</a>
+<a href = "nss/jobmap_clusters.html"> Clustered</a>
 
 ### SE3 Applicants  
-<a href = "SE_Q3_map.html">  2022Q3 SE applicant locations </a>
+<a href = "nss/SE_Q3_map.html">  2022Q3 SE applicant locations </a>
+
