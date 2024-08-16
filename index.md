@@ -114,4 +114,5 @@ I wanted to see what I'd been searching for in 2016 and 2017.
 <a href = "nss/SE_Q3Q4_map.html">  2022Q3Q4 SE applicant locations </a>
 <a href = "cohort_gannt.html">  2023 - 2025 cohort gannt chart </a>
 
-
+### NSS Applicant locations 2020-2024 (as of 8/12/2024)
+<a href = "nss/nss_applicants.html"> NSS applicant locations 1/1/2020 - 8/12/2024 </a>
