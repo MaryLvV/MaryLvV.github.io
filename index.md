@@ -116,3 +116,6 @@ I wanted to see what I'd been searching for in 2016 and 2017.
 
 ### NSS Applicant locations 2020-2024 (as of 8/12/2024)
 <a href = "nss/nss_applicants.html"> NSS applicant locations 1/1/2020 - 8/12/2024 </a>
+
+### NSS Student locations 2020-2024 (as of 8/12/2024)
+<a href = "nss/nss_student_locs.html"> NSS student locations by application date 1/1/2020 - 8/12/2024 </a>
