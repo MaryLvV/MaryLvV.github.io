@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_1ed61fc84a65d203cddcf33b3eeb129f {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_1ed61fc84a65d203cddcf33b3eeb129f" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_1ed61fc84a65d203cddcf33b3eeb129f = L.map(
+                "map_1ed61fc84a65d203cddcf33b3eeb129f",
+                {
+                    center: [39.0897704, -94.9051421],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4.4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_613e9b73230672ff74f93d2302b7194c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        
+    
+        function geo_json_132c901fd65735b150d174847b0b6a6f_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_132c901fd65735b150d174847b0b6a6f_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_132c901fd65735b150d174847b0b6a6f = L.geoJson(null, {
+                onEachFeature: geo_json_132c901fd65735b150d174847b0b6a6f_onEachFeature,
+            
+                style: geo_json_132c901fd65735b150d174847b0b6a6f_styler,
+        });
+
+        function geo_json_132c901fd65735b150d174847b0b6a6f_add (data) {
+            geo_json_132c901fd65735b150d174847b0b6a6f
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_132c901fd65735b150d174847b0b6a6f_add({"bbox": [-81.086679, 40.900323933315086, -80.519196690325, 41.13418899906513], "features": [{"bbox": [-81.086679, 40.900323933315086, -80.519196690325, 41.13418899906513], "geometry": {"coordinates": [[[-81.086312, 40.98803099906577], [-81.001695, 40.987782999065786], [-81.00229, 41.13418899906513], [-80.519196690325, 41.13338650161404], [-80.51986970768618, 40.900323933315086], [-80.821923, 40.90093499906619], [-80.895813, 40.930186999066045], [-81.086679, 40.90160899906618], [-81.086312, 40.98803099906577]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_66940e4e90f3b5b18f4156359751bfa3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8b2b80111db3feecd01fe5235cd08323 = $(`<div id="html_8b2b80111db3feecd01fe5235cd08323" style="width: 100.0%; height: 100.0%;">Youngstown/Mahoning County OH</div>`)[0];
+                popup_66940e4e90f3b5b18f4156359751bfa3.setContent(html_8b2b80111db3feecd01fe5235cd08323);
+            
+        
+
+        geo_json_132c901fd65735b150d174847b0b6a6f.bindPopup(popup_66940e4e90f3b5b18f4156359751bfa3)
+        ;
+
+        
+    
+    
+        function geo_json_a71d3173b397978a885e95e56552a789_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_a71d3173b397978a885e95e56552a789_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_a71d3173b397978a885e95e56552a789 = L.geoJson(null, {
+                onEachFeature: geo_json_a71d3173b397978a885e95e56552a789_onEachFeature,
+            
+                style: geo_json_a71d3173b397978a885e95e56552a789_styler,
+        });
+
+        function geo_json_a71d3173b397978a885e95e56552a789_add (data) {
+            geo_json_a71d3173b397978a885e95e56552a789
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_a71d3173b397978a885e95e56552a789_add({"bbox": [-90.260976059287, 38.21940399908271, -89.703256, 38.660372884389915], "features": [{"bbox": [-90.260976059287, 38.21940399908271, -89.703256, 38.660372884389915], "geometry": {"coordinates": [[[-90.260976059287, 38.51852678648825], [-90.248913, 38.54475199908026], [-90.18451, 38.611550999079775], [-90.18152438153129, 38.660372884389915], [-89.707024, 38.65515199907947], [-89.703256, 38.21940399908271], [-89.899061, 38.22075499908269], [-89.903937, 38.297202999082096], [-90.036018, 38.30884999908202], [-90.260976059287, 38.51852678648825]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_87dcc9132ee925099f3cb742ccc8713b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e291a7f3ee0c100f2010c962f834b4cc = $(`<div id="html_e291a7f3ee0c100f2010c962f834b4cc" style="width: 100.0%; height: 100.0%;">East St. Louis, Belleville/St. Clair County IL</div>`)[0];
+                popup_87dcc9132ee925099f3cb742ccc8713b.setContent(html_e291a7f3ee0c100f2010c962f834b4cc);
+            
+        
+
+        geo_json_a71d3173b397978a885e95e56552a789.bindPopup(popup_87dcc9132ee925099f3cb742ccc8713b)
+        ;
+
+        
+    
+    
+        function geo_json_953417582fabd20d2462bf61bdc40a74_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_953417582fabd20d2462bf61bdc40a74_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_953417582fabd20d2462bf61bdc40a74 = L.geoJson(null, {
+                onEachFeature: geo_json_953417582fabd20d2462bf61bdc40a74_onEachFeature,
+            
+                style: geo_json_953417582fabd20d2462bf61bdc40a74_styler,
+        });
+
+        function geo_json_953417582fabd20d2462bf61bdc40a74_add (data) {
+            geo_json_953417582fabd20d2462bf61bdc40a74
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_953417582fabd20d2462bf61bdc40a74_add({"bbox": [-77.186937, 39.103141999076364, -76.697085, 39.36929599907462], "features": [{"bbox": [-77.186937, 39.103141999076364, -76.697085, 39.36929599907462], "geometry": {"coordinates": [[[-77.168801, 39.35350199907472], [-77.101678, 39.36929599907462], [-76.882274, 39.35018499907475], [-76.793626, 39.31365499907498], [-76.79379, 39.26586299907529], [-76.697085, 39.21409199907563], [-76.712164, 39.20193299907571], [-76.713346, 39.19373899907576], [-76.722606, 39.18285699907583], [-76.746544, 39.17959199907585], [-76.765016, 39.164836999075945], [-76.781511, 39.145497999076085], [-76.786966, 39.12878199907619], [-76.813312, 39.122463999076224], [-76.826665, 39.10994799907631], [-76.840362, 39.103141999076364], [-76.888505, 39.13096699907618], [-76.958517, 39.13402299907615], [-76.973666, 39.162208999075965], [-77.070112, 39.25410399907537], [-77.134466, 39.27683399907522], [-77.186937, 39.33926499907481], [-77.168801, 39.35350199907472]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_d812ed4c3b6a869e1473f27de3c7cc3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1380845b3921b86bd02390fdd4bb721b = $(`<div id="html_1380845b3921b86bd02390fdd4bb721b" style="width: 100.0%; height: 100.0%;">Howard County MD</div>`)[0];
+                popup_d812ed4c3b6a869e1473f27de3c7cc3f.setContent(html_1380845b3921b86bd02390fdd4bb721b);
+            
+        
+
+        geo_json_953417582fabd20d2462bf61bdc40a74.bindPopup(popup_d812ed4c3b6a869e1473f27de3c7cc3f)
+        ;
+
+        
+    
+    
+        function geo_json_059718356758c0f1f9c33902dd85db79_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_059718356758c0f1f9c33902dd85db79_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_059718356758c0f1f9c33902dd85db79 = L.geoJson(null, {
+                onEachFeature: geo_json_059718356758c0f1f9c33902dd85db79_onEachFeature,
+            
+                style: geo_json_059718356758c0f1f9c33902dd85db79_styler,
+        });
+
+        function geo_json_059718356758c0f1f9c33902dd85db79_add (data) {
+            geo_json_059718356758c0f1f9c33902dd85db79
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_059718356758c0f1f9c33902dd85db79_add({"bbox": [-88.70737771540179, 42.153560999061256, -88.198314, 42.49575601475053], "features": [{"bbox": [-88.70737771540179, 42.153560999061256, -88.198314, 42.49575601475053], "geometry": {"coordinates": [[[-88.70737771540179, 42.49358701382983], [-88.1995290014485, 42.49575601475053], [-88.198314, 42.24161199906097], [-88.199584, 42.15425999906126], [-88.705633, 42.153560999061256], [-88.70737771540179, 42.49358701382983]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_4e046e8927e60f16eb801d95d6524a38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b3e192d8223e17a31441e262f72c890 = $(`<div id="html_3b3e192d8223e17a31441e262f72c890" style="width: 100.0%; height: 100.0%;">McHenry County IL</div>`)[0];
+                popup_4e046e8927e60f16eb801d95d6524a38.setContent(html_3b3e192d8223e17a31441e262f72c890);
+            
+        
+
+        geo_json_059718356758c0f1f9c33902dd85db79.bindPopup(popup_4e046e8927e60f16eb801d95d6524a38)
+        ;
+
+        
+    
+    
+        function geo_json_5f5a3b53e0b14a790138d6015b5d361a_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_5f5a3b53e0b14a790138d6015b5d361a_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_5f5a3b53e0b14a790138d6015b5d361a = L.geoJson(null, {
+                onEachFeature: geo_json_5f5a3b53e0b14a790138d6015b5d361a_onEachFeature,
+            
+                style: geo_json_5f5a3b53e0b14a790138d6015b5d361a_styler,
+        });
+
+        function geo_json_5f5a3b53e0b14a790138d6015b5d361a_add (data) {
+            geo_json_5f5a3b53e0b14a790138d6015b5d361a
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_5f5a3b53e0b14a790138d6015b5d361a_add({"bbox": [-82.36920139216909, 26.769551999240633, -81.562202, 27.035249999235468], "features": [{"bbox": [-82.36920139216909, 26.769551999240633, -81.562202, 27.035249999235468], "geometry": {"coordinates": [[[-82.36920139216909, 26.946081024870693], [-82.255521, 26.94526399923721], [-82.255237, 27.032974999235513], [-82.057469, 27.032118999235532], [-81.983242, 27.035249999235468], [-81.562202, 27.033835999235503], [-81.565931, 26.769551999240633], [-82.205562, 26.77052799924062], [-82.2805412776288, 26.789308585683344], [-82.314277, 26.8583839992389], [-82.36920139216909, 26.946081024870693]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_b843a5feb04bbb6c700c10f2ea65a312 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fdc9abf26717c794e0b50b64b8051b5 = $(`<div id="html_8fdc9abf26717c794e0b50b64b8051b5" style="width: 100.0%; height: 100.0%;">Punta Gorda/Charlotte County FL</div>`)[0];
+                popup_b843a5feb04bbb6c700c10f2ea65a312.setContent(html_8fdc9abf26717c794e0b50b64b8051b5);
+            
+        
+
+        geo_json_5f5a3b53e0b14a790138d6015b5d361a.bindPopup(popup_b843a5feb04bbb6c700c10f2ea65a312)
+        ;
+
+        
+    
+    
+        function geo_json_e51d4efc4a67bf8340343e24d4ce3640_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_e51d4efc4a67bf8340343e24d4ce3640_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_e51d4efc4a67bf8340343e24d4ce3640 = L.geoJson(null, {
+                onEachFeature: geo_json_e51d4efc4a67bf8340343e24d4ce3640_onEachFeature,
+            
+                style: geo_json_e51d4efc4a67bf8340343e24d4ce3640_styler,
+        });
+
+        function geo_json_e51d4efc4a67bf8340343e24d4ce3640_add (data) {
+            geo_json_e51d4efc4a67bf8340343e24d4ce3640
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_e51d4efc4a67bf8340343e24d4ce3640_add({"bbox": [-90.2765837220256, 38.65515199907947, -89.595103, 38.999346999077055], "features": [{"bbox": [-90.2765837220256, 38.65515199907947, -89.595103, 38.999346999077055], "geometry": {"coordinates": [[[-90.273686, 38.999346999077055], [-89.639265, 38.999128999077065], [-89.637831, 38.91835299907761], [-89.599593, 38.87452999907792], [-89.595103, 38.65594799907946], [-89.707024, 38.65515199907947], [-90.18152438153129, 38.660372884389915], [-90.19521, 38.68754999907924], [-90.20991, 38.72604999907895], [-90.166409, 38.77264899907863], [-90.117707, 38.8057479990784], [-90.113327, 38.84930599907809], [-90.230336, 38.910859999077665], [-90.2765837220256, 38.919338466289204], [-90.273686, 38.999346999077055]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_9fa2b652f0eeed78a69670b4611953be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05915ee19d7317fb01ded323be012cc7 = $(`<div id="html_05915ee19d7317fb01ded323be012cc7" style="width: 100.0%; height: 100.0%;">Madison County IL</div>`)[0];
+                popup_9fa2b652f0eeed78a69670b4611953be.setContent(html_05915ee19d7317fb01ded323be012cc7);
+            
+        
+
+        geo_json_e51d4efc4a67bf8340343e24d4ce3640.bindPopup(popup_9fa2b652f0eeed78a69670b4611953be)
+        ;
+
+        
+    
+    
+        function geo_json_6191b5c43b5b6889d0b6048d9f515deb_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_6191b5c43b5b6889d0b6048d9f515deb_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_6191b5c43b5b6889d0b6048d9f515deb = L.geoJson(null, {
+                onEachFeature: geo_json_6191b5c43b5b6889d0b6048d9f515deb_onEachFeature,
+            
+                style: geo_json_6191b5c43b5b6889d0b6048d9f515deb_styler,
+        });
+
+        function geo_json_6191b5c43b5b6889d0b6048d9f515deb_add (data) {
+            geo_json_6191b5c43b5b6889d0b6048d9f515deb
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_6191b5c43b5b6889d0b6048d9f515deb_add({"bbox": [-123.011533, 37.8267279990858, -122.41847, 38.321208999081925], "features": [{"bbox": [-123.011533, 37.8267279990858, -122.41847, 38.321208999081925], "geometry": {"coordinates": [[[-123.011533, 38.00343799908438], [-122.960889, 38.11296199908352], [-122.953629, 38.17566999908304], [-122.987149, 38.23753799908256], [-122.986319, 38.27316399908229], [-123.003146477056, 38.295705237796625], [-122.911319, 38.321208999081925], [-122.7399, 38.2070179990828], [-122.565093, 38.18221699908299], [-122.505707, 38.11552599908351], [-122.48849963925903, 38.10909447339175], [-122.491283, 38.10808699908357], [-122.499465, 38.03216499908416], [-122.452995, 37.996166999084444], [-122.488665, 37.966713999084675], [-122.486375, 37.92188099908503], [-122.448413, 37.893409999085264], [-122.41847, 37.852720999085584], [-122.483483, 37.8267279990858], [-122.537285, 37.83032799908578], [-122.60129, 37.87512599908541], [-122.678474, 37.90660399908516], [-122.70264, 37.89381999908526], [-122.754606, 37.93552699908492], [-122.797405, 37.97665699908459], [-122.856573, 38.01671699908428], [-122.939711, 38.031907999084154], [-122.97439, 37.99242899908447], [-123.011533, 38.00343799908438]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_c51f6f1b413eeecd831d8d7a455c362a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf8e30adf67496f394883ebefe50aea4 = $(`<div id="html_cf8e30adf67496f394883ebefe50aea4" style="width: 100.0%; height: 100.0%;">Marin County CA</div>`)[0];
+                popup_c51f6f1b413eeecd831d8d7a455c362a.setContent(html_cf8e30adf67496f394883ebefe50aea4);
+            
+        
+
+        geo_json_6191b5c43b5b6889d0b6048d9f515deb.bindPopup(popup_c51f6f1b413eeecd831d8d7a455c362a)
+        ;
+
+        
+    
+    
+        function geo_json_c845d1a79a09c3c8fbbf0f77b7331ff1_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_c845d1a79a09c3c8fbbf0f77b7331ff1_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_c845d1a79a09c3c8fbbf0f77b7331ff1 = L.geoJson(null, {
+                onEachFeature: geo_json_c845d1a79a09c3c8fbbf0f77b7331ff1_onEachFeature,
+            
+                style: geo_json_c845d1a79a09c3c8fbbf0f77b7331ff1_styler,
+        });
+
+        function geo_json_c845d1a79a09c3c8fbbf0f77b7331ff1_add (data) {
+            geo_json_c845d1a79a09c3c8fbbf0f77b7331ff1
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_c845d1a79a09c3c8fbbf0f77b7331ff1_add({"bbox": [-75.834695, 41.161496999065, -75.440658, 41.64226299906305], "features": [{"bbox": [-75.834695, 41.161496999065, -75.440658, 41.64226299906305], "geometry": {"coordinates": [[[-75.834695, 41.42724599906389], [-75.772134, 41.50586899906358], [-75.719887, 41.64226299906305], [-75.462411, 41.64158699906306], [-75.440658, 41.2581249990646], [-75.505607, 41.232538999064694], [-75.558862, 41.206856999064804], [-75.600736, 41.161496999065], [-75.643494, 41.17625899906494], [-75.652922, 41.25831399906459], [-75.687244, 41.33921599906425], [-75.760518, 41.36094199906417], [-75.795286, 41.378126999064094], [-75.834695, 41.42724599906389]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_32d84de92d4e6b3e7a89155ee213c0d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_688246e83edef5954291213c3ea8b9de = $(`<div id="html_688246e83edef5954291213c3ea8b9de" style="width: 100.0%; height: 100.0%;">Scranton/Lackawanna County PA</div>`)[0];
+                popup_32d84de92d4e6b3e7a89155ee213c0d1.setContent(html_688246e83edef5954291213c3ea8b9de);
+            
+        
+
+        geo_json_c845d1a79a09c3c8fbbf0f77b7331ff1.bindPopup(popup_32d84de92d4e6b3e7a89155ee213c0d1)
+        ;
+
+        
+    
+    
+        function geo_json_3ae78a41ff8f1704fd75a49cab86937b_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_3ae78a41ff8f1704fd75a49cab86937b_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_3ae78a41ff8f1704fd75a49cab86937b = L.geoJson(null, {
+                onEachFeature: geo_json_3ae78a41ff8f1704fd75a49cab86937b_onEachFeature,
+            
+                style: geo_json_3ae78a41ff8f1704fd75a49cab86937b_styler,
+        });
+
+        function geo_json_3ae78a41ff8f1704fd75a49cab86937b_add (data) {
+            geo_json_3ae78a41ff8f1704fd75a49cab86937b
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_3ae78a41ff8f1704fd75a49cab86937b_add({"bbox": [-76.319236, 40.90198599906618, -75.600736, 41.42724599906389], "features": [{"bbox": [-76.319236, 40.90198599906618, -75.600736, 41.42724599906389], "geometry": {"coordinates": [[[-76.310133, 41.31019899906436], [-76.2831, 41.376516999064094], [-76.00507, 41.38455099906406], [-75.834695, 41.42724599906389], [-75.795286, 41.378126999064094], [-75.760518, 41.36094199906417], [-75.687244, 41.33921599906425], [-75.652922, 41.25831399906459], [-75.643494, 41.17625899906494], [-75.600736, 41.161496999065], [-75.649637, 41.12234399906517], [-75.693388, 41.13105899906515], [-75.770196, 41.0502189990655], [-75.73193, 41.00821999906569], [-76.02815, 40.90198599906618], [-76.207827, 40.94973999906596], [-76.228975, 41.13846599906512], [-76.277639, 41.13180399906514], [-76.319236, 41.20809199906481], [-76.310133, 41.31019899906436]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_2f2c9eeef76a73f49009e8e51b2d7aef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b8b7016f17d16a9afb626e22c6e283d = $(`<div id="html_9b8b7016f17d16a9afb626e22c6e283d" style="width: 100.0%; height: 100.0%;">Wilkes-Barre, Hazleton/Luzerne County PA</div>`)[0];
+                popup_2f2c9eeef76a73f49009e8e51b2d7aef.setContent(html_9b8b7016f17d16a9afb626e22c6e283d);
+            
+        
+
+        geo_json_3ae78a41ff8f1704fd75a49cab86937b.bindPopup(popup_2f2c9eeef76a73f49009e8e51b2d7aef)
+        ;
+
+        
+    
+    
+        function geo_json_b4d0605f5d67ec00ba89d484a88ee660_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_b4d0605f5d67ec00ba89d484a88ee660_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_b4d0605f5d67ec00ba89d484a88ee660 = L.geoJson(null, {
+                onEachFeature: geo_json_b4d0605f5d67ec00ba89d484a88ee660_onEachFeature,
+            
+                style: geo_json_b4d0605f5d67ec00ba89d484a88ee660_styler,
+        });
+
+        function geo_json_b4d0605f5d67ec00ba89d484a88ee660_add (data) {
+            geo_json_b4d0605f5d67ec00ba89d484a88ee660
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_b4d0605f5d67ec00ba89d484a88ee660_add({"bbox": [-97.671529, 34.928175999113954, -97.142114, 35.37715099910898], "features": [{"bbox": [-97.671529, 34.928175999113954, -97.142114, 35.37715099910898], "geometry": {"coordinates": [[[-97.671369, 35.37715099910898], [-97.142114, 35.376859999108994], [-97.142349, 34.928175999113954], [-97.333833, 34.958947999113605], [-97.354192, 35.07665599911229], [-97.407082, 35.1381439991116], [-97.54146, 35.21416499911077], [-97.556987, 35.28843999910995], [-97.671529, 35.33750799910943], [-97.671369, 35.37715099910898]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_6003b01faa800ca3d22d7c88869fbf8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9c1cd230d62e4bb0d38dae33b3414a62 = $(`<div id="html_9c1cd230d62e4bb0d38dae33b3414a62" style="width: 100.0%; height: 100.0%;">Norman/Cleveland County OK</div>`)[0];
+                popup_6003b01faa800ca3d22d7c88869fbf8b.setContent(html_9c1cd230d62e4bb0d38dae33b3414a62);
+            
+        
+
+        geo_json_b4d0605f5d67ec00ba89d484a88ee660.bindPopup(popup_6003b01faa800ca3d22d7c88869fbf8b)
+        ;
+
+        
+    
+    
+        function geo_json_4a18e578df04c69c8d8064ecebd6db5b_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_4a18e578df04c69c8d8064ecebd6db5b_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_4a18e578df04c69c8d8064ecebd6db5b = L.geoJson(null, {
+                onEachFeature: geo_json_4a18e578df04c69c8d8064ecebd6db5b_onEachFeature,
+            
+                style: geo_json_4a18e578df04c69c8d8064ecebd6db5b_styler,
+        });
+
+        function geo_json_4a18e578df04c69c8d8064ecebd6db5b_add (data) {
+            geo_json_4a18e578df04c69c8d8064ecebd6db5b
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_4a18e578df04c69c8d8064ecebd6db5b_add({"bbox": [-122.421904, 38.313088999081984, -121.50509, 38.925288999077566], "features": [{"bbox": [-122.421904, 38.313088999081984, -121.50509, 38.925288999077566], "geometry": {"coordinates": [[[-122.403941, 38.925288999077566], [-121.835488, 38.92448099907758], [-121.814814, 38.8765819990779], [-121.723149, 38.851305999078086], [-121.673033, 38.742846999078836], [-121.602894, 38.73583799907889], [-121.633774, 38.68616399907924], [-121.553609, 38.603325999079836], [-121.544567, 38.597703999079876], [-121.527667, 38.60460399907983], [-121.511566, 38.60090399907986], [-121.506269, 38.586304999079964], [-121.520965, 38.56620499908011], [-121.51129, 38.54628999908026], [-121.530767, 38.52790599908039], [-121.525178, 38.51896199908045], [-121.551866, 38.51380599908049], [-121.558069, 38.501875999080575], [-121.50509, 38.469562999080814], [-121.521641, 38.36010399908164], [-121.593273, 38.313088999081984], [-121.693697, 38.31373199908197], [-121.712034, 38.53796199908031], [-121.940285, 38.53338399908034], [-122.011673, 38.48899099908067], [-122.103281, 38.51334799908049], [-122.168301, 38.65529599907946], [-122.224206, 38.699983999079144], [-122.287998, 38.839930999078156], [-122.395056, 38.86424499907798], [-122.421904, 38.90376999907771], [-122.403941, 38.925288999077566]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_87609a7ff6c4f049e8591485accecece = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46f7bca00d322abbf5a905b1a6531448 = $(`<div id="html_46f7bca00d322abbf5a905b1a6531448" style="width: 100.0%; height: 100.0%;">Davis, Woodland/Yolo County CA</div>`)[0];
+                popup_87609a7ff6c4f049e8591485accecece.setContent(html_46f7bca00d322abbf5a905b1a6531448);
+            
+        
+
+        geo_json_4a18e578df04c69c8d8064ecebd6db5b.bindPopup(popup_87609a7ff6c4f049e8591485accecece)
+        ;
+
+        
+    
+    
+        function geo_json_2f5214ed36f1b9306ba64e7b38ff873c_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_2f5214ed36f1b9306ba64e7b38ff873c_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_2f5214ed36f1b9306ba64e7b38ff873c = L.geoJson(null, {
+                onEachFeature: geo_json_2f5214ed36f1b9306ba64e7b38ff873c_onEachFeature,
+            
+                style: geo_json_2f5214ed36f1b9306ba64e7b38ff873c_styler,
+        });
+
+        function geo_json_2f5214ed36f1b9306ba64e7b38ff873c_add (data) {
+            geo_json_2f5214ed36f1b9306ba64e7b38ff873c
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_2f5214ed36f1b9306ba64e7b38ff873c_add({"bbox": [-77.020799, 40.12006999907015, -76.535414, 40.65808199906734], "features": [{"bbox": [-77.020799, 40.12006999907015, -76.535414, 40.65808199906734], "geometry": {"coordinates": [[[-77.01627, 40.42517299906852], [-76.952838, 40.462443999068334], [-76.992488, 40.567533999067784], [-76.949414, 40.62816299906749], [-76.919272, 40.60354399906761], [-76.701624, 40.65808199906734], [-76.535414, 40.55515699906786], [-76.67804, 40.474716999068264], [-76.578128, 40.21785399906961], [-76.566339, 40.196643999069735], [-76.678137, 40.14873399906999], [-76.697664, 40.15634199906995], [-76.72162, 40.12006999907015], [-76.756379, 40.177051999069825], [-76.824696, 40.202318999069696], [-76.859023, 40.22632799906956], [-76.884916, 40.24726499906946], [-76.924152, 40.28916599906923], [-76.91497, 40.32848399906902], [-76.916811, 40.331675999069006], [-77.020799, 40.36622999906883], [-77.01627, 40.42517299906852]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_e9107441eb2f09659ba4cab1eeedd3f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32f9ea2fc7a2f8cdc90bc50d6a4dbfc4 = $(`<div id="html_32f9ea2fc7a2f8cdc90bc50d6a4dbfc4" style="width: 100.0%; height: 100.0%;">Harrisburg/Dauphin County PA</div>`)[0];
+                popup_e9107441eb2f09659ba4cab1eeedd3f5.setContent(html_32f9ea2fc7a2f8cdc90bc50d6a4dbfc4);
+            
+        
+
+        geo_json_2f5214ed36f1b9306ba64e7b38ff873c.bindPopup(popup_e9107441eb2f09659ba4cab1eeedd3f5)
+        ;
+
+        
+    
+    
+        function geo_json_8c8a56e9fd3512303761e288ed80f14c_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_8c8a56e9fd3512303761e288ed80f14c_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_8c8a56e9fd3512303761e288ed80f14c = L.geoJson(null, {
+                onEachFeature: geo_json_8c8a56e9fd3512303761e288ed80f14c_onEachFeature,
+            
+                style: geo_json_8c8a56e9fd3512303761e288ed80f14c_styler,
+        });
+
+        function geo_json_8c8a56e9fd3512303761e288ed80f14c_add (data) {
+            geo_json_8c8a56e9fd3512303761e288ed80f14c
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_8c8a56e9fd3512303761e288ed80f14c_add({"bbox": [-82.883909, 35.41661499910855, -82.169049, 35.821244999104294], "features": [{"bbox": [-82.883909, 35.41661499910855, -82.169049, 35.821244999104294], "geometry": {"coordinates": [[[-82.883909, 35.67823499910578], [-82.805207, 35.686066999105705], [-82.513161, 35.80337999910448], [-82.499483, 35.801533999104485], [-82.494885, 35.79946399910452], [-82.488178, 35.8014589991045], [-82.476099, 35.79831899910453], [-82.465159, 35.80179599910449], [-82.463828, 35.80961599910441], [-82.454299, 35.80734799910443], [-82.446959, 35.81042599910442], [-82.435335, 35.80858999910442], [-82.427365, 35.813765999104376], [-82.41788, 35.81335899910438], [-82.408602, 35.81817799910433], [-82.361956, 35.821244999104294], [-82.335054, 35.74939599910504], [-82.284733, 35.72552599910529], [-82.275399, 35.7044379991055], [-82.291026, 35.59132199910669], [-82.169049, 35.527810999107366], [-82.233203, 35.51940199910746], [-82.265795, 35.46781799910801], [-82.332822, 35.500219999107664], [-82.495208, 35.44518599910825], [-82.532713, 35.41661499910855], [-82.673343, 35.45945299910809], [-82.745139, 35.422966999108496], [-82.798174, 35.469804999107986], [-82.77055, 35.57593199910686], [-82.84609, 35.614308999106456], [-82.883909, 35.67823499910578]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_03c67c14161c3759121ff27d55931ac8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5cbc7d78d7a82a9512795f95e283ccbb = $(`<div id="html_5cbc7d78d7a82a9512795f95e283ccbb" style="width: 100.0%; height: 100.0%;">Asheville/Buncombe County NC</div>`)[0];
+                popup_03c67c14161c3759121ff27d55931ac8.setContent(html_5cbc7d78d7a82a9512795f95e283ccbb);
+            
+        
+
+        geo_json_8c8a56e9fd3512303761e288ed80f14c.bindPopup(popup_03c67c14161c3759121ff27d55931ac8)
+        ;
+
+        
+    
+    
+        function geo_json_b3344a155cec56fbd995e789d08cdb39_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_b3344a155cec56fbd995e789d08cdb39_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_b3344a155cec56fbd995e789d08cdb39 = L.geoJson(null, {
+                onEachFeature: geo_json_b3344a155cec56fbd995e789d08cdb39_onEachFeature,
+            
+                style: geo_json_b3344a155cec56fbd995e789d08cdb39_styler,
+        });
+
+        function geo_json_b3344a155cec56fbd995e789d08cdb39_add (data) {
+            geo_json_b3344a155cec56fbd995e789d08cdb39
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_b3344a155cec56fbd995e789d08cdb39_add({"bbox": [-122.317682, 36.85004944283976, -121.581354, 37.286054999090354], "features": [{"bbox": [-122.317682, 36.85004944283976, -121.581354, 37.286054999090354], "geometry": {"coordinates": [[[-122.317682, 37.18694499909122], [-122.152774, 37.21544399909096], [-122.152278, 37.286054999090354], [-121.99109, 37.144269999091584], [-121.84629, 37.09701999909201], [-121.809076, 37.069300999092256], [-121.738697, 36.989990999092974], [-121.581354, 36.8991519990938], [-121.644001, 36.893995999093846], [-121.699956, 36.91968299909361], [-121.81273242676201, 36.85004944283976], [-121.862266, 36.93155199909351], [-121.906468, 36.96894999909317], [-121.95167, 36.97144999909314], [-122.027174, 36.951149999093325], [-122.105976, 36.95595099909328], [-122.20618, 37.013948999092754], [-122.260481, 37.07254799909223], [-122.284882, 37.10174699909197], [-122.29431019191301, 37.10514138581003], [-122.317682, 37.18694499909122]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_b476d7155f1eb1d02bca8309d81dfc5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9ba235270ecad204e8714654de171869 = $(`<div id="html_9ba235270ecad204e8714654de171869" style="width: 100.0%; height: 100.0%;">Watsonville/Santa Cruz City & County CA</div>`)[0];
+                popup_b476d7155f1eb1d02bca8309d81dfc5d.setContent(html_9ba235270ecad204e8714654de171869);
+            
+        
+
+        geo_json_b3344a155cec56fbd995e789d08cdb39.bindPopup(popup_b476d7155f1eb1d02bca8309d81dfc5d)
+        ;
+
+        
+    
+    
+        function geo_json_bf59d36d5045cebc69589b2314bf7e4e_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_bf59d36d5045cebc69589b2314bf7e4e_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_bf59d36d5045cebc69589b2314bf7e4e = L.geoJson(null, {
+                onEachFeature: geo_json_bf59d36d5045cebc69589b2314bf7e4e_onEachFeature,
+            
+                style: geo_json_bf59d36d5045cebc69589b2314bf7e4e_styler,
+        });
+
+        function geo_json_bf59d36d5045cebc69589b2314bf7e4e_add (data) {
+            geo_json_bf59d36d5045cebc69589b2314bf7e4e
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_bf59d36d5045cebc69589b2314bf7e4e_add({"bbox": [-74.985271, 39.28855799907514, -74.2910153361548, 39.72977499907239], "features": [{"bbox": [-74.985271, 39.28855799907514, -74.2910153361548, 39.72977499907239], "geometry": {"coordinates": [[[-74.985271, 39.51496699907371], [-74.736216, 39.72977499907239], [-74.723856, 39.72206299907244], [-74.654318, 39.62679899907302], [-74.475664, 39.55145999907348], [-74.417393, 39.55725499907344], [-74.380796, 39.49853699907381], [-74.2910153361548, 39.508369796571536], [-74.304343, 39.47144499907397], [-74.36699, 39.40201699907442], [-74.412692, 39.36081599907468], [-74.521797, 39.31381599907498], [-74.5407878555825, 39.30002549025947], [-74.653206, 39.28855799907514], [-74.861294, 39.32381499907491], [-74.856015, 39.42395799907427], [-74.985271, 39.51496699907371]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_486518edfa7d439d607bc19a5369dfbb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_955fbf7af9b7ff3893090593e3851cd1 = $(`<div id="html_955fbf7af9b7ff3893090593e3851cd1" style="width: 100.0%; height: 100.0%;">Atlantic City & County NJ</div>`)[0];
+                popup_486518edfa7d439d607bc19a5369dfbb.setContent(html_955fbf7af9b7ff3893090593e3851cd1);
+            
+        
+
+        geo_json_bf59d36d5045cebc69589b2314bf7e4e.bindPopup(popup_486518edfa7d439d607bc19a5369dfbb)
+        ;
+
+        
+    
+    
+        function geo_json_4e2a97991f7e4cb386d972e9671f3a7f_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_4e2a97991f7e4cb386d972e9671f3a7f_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_4e2a97991f7e4cb386d972e9671f3a7f = L.geoJson(null, {
+                onEachFeature: geo_json_4e2a97991f7e4cb386d972e9671f3a7f_onEachFeature,
+            
+                style: geo_json_4e2a97991f7e4cb386d972e9671f3a7f_styler,
+        });
+
+        function geo_json_4e2a97991f7e4cb386d972e9671f3a7f_add (data) {
+            geo_json_4e2a97991f7e4cb386d972e9671f3a7f
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_4e2a97991f7e4cb386d972e9671f3a7f_add({"bbox": [-121.245887, 36.740380999095265, -120.052055, 37.63336399908739], "features": [{"bbox": [-121.245887, 36.740380999095265, -120.052055, 37.63336399908739], "geometry": {"coordinates": [[[-121.226804, 37.134773999091685], [-120.963812, 37.346143999089826], [-120.989811, 37.3958709990894], [-120.38767, 37.63336399908739], [-120.177636, 37.26152599909056], [-120.052055, 37.18310799909124], [-120.106385, 37.167152999091385], [-120.227286, 37.16339999909143], [-120.476692, 37.09638999909202], [-120.541696, 37.04450499909248], [-120.590566, 36.95264099909332], [-120.65595, 36.95283199909332], [-120.918731, 36.740380999095265], [-121.141523, 36.836655999094376], [-121.234683, 36.926893999093544], [-121.215406, 36.96124799909324], [-121.245887, 36.983035999093026], [-121.226804, 37.134773999091685]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_1d12e6545eb310d0d4dd3c9f326a9e36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2adc1c3ac63804270c517581c94979b = $(`<div id="html_d2adc1c3ac63804270c517581c94979b" style="width: 100.0%; height: 100.0%;">Merced City & County CA</div>`)[0];
+                popup_1d12e6545eb310d0d4dd3c9f326a9e36.setContent(html_d2adc1c3ac63804270c517581c94979b);
+            
+        
+
+        geo_json_4e2a97991f7e4cb386d972e9671f3a7f.bindPopup(popup_1d12e6545eb310d0d4dd3c9f326a9e36)
+        ;
+
+        
+    
+    
+        function geo_json_9cc6ba1a5b3592546549e2a82c341d83_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_9cc6ba1a5b3592546549e2a82c341d83_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_9cc6ba1a5b3592546549e2a82c341d83 = L.geoJson(null, {
+                onEachFeature: geo_json_9cc6ba1a5b3592546549e2a82c341d83_onEachFeature,
+            
+                style: geo_json_9cc6ba1a5b3592546549e2a82c341d83_styler,
+        });
+
+        function geo_json_9cc6ba1a5b3592546549e2a82c341d83_add (data) {
+            geo_json_9cc6ba1a5b3592546549e2a82c341d83
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_9cc6ba1a5b3592546549e2a82c341d83_add({"bbox": [-86.27392827867139, 42.76754387097519, -85.782106, 43.20591999905851], "features": [{"bbox": [-86.27392827867139, 42.76754387097519, -85.782106, 43.20591999905851], "geometry": {"coordinates": [[[-86.27392827867139, 43.118367967766495], [-85.907435, 43.11891099905869], [-85.908388, 43.20591999905851], [-85.790662, 43.20516699905851], [-85.788503, 43.03087699905888], [-85.782106, 42.85629599905929], [-85.782498, 42.768199999059505], [-86.20853850290968, 42.76754387097519], [-86.214138, 42.88355499905922], [-86.226305, 42.98828399905898], [-86.254646, 43.08340899905876], [-86.27392827867139, 43.118367967766495]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_aac3b2fdc56a9ce88f1b4d6f19348d01 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6b7d6bff13772c008076eb3cfb2814a6 = $(`<div id="html_6b7d6bff13772c008076eb3cfb2814a6" style="width: 100.0%; height: 100.0%;">Holland/Ottawa County MI</div>`)[0];
+                popup_aac3b2fdc56a9ce88f1b4d6f19348d01.setContent(html_6b7d6bff13772c008076eb3cfb2814a6);
+            
+        
+
+        geo_json_9cc6ba1a5b3592546549e2a82c341d83.bindPopup(popup_aac3b2fdc56a9ce88f1b4d6f19348d01)
+        ;
+
+        
+    
+    
+        function geo_json_4620f54d6da665492b32787f3e78b4e9_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_4620f54d6da665492b32787f3e78b4e9_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_4620f54d6da665492b32787f3e78b4e9 = L.geoJson(null, {
+                onEachFeature: geo_json_4620f54d6da665492b32787f3e78b4e9_onEachFeature,
+            
+                style: geo_json_4620f54d6da665492b32787f3e78b4e9_styler,
+        });
+
+        function geo_json_4620f54d6da665492b32787f3e78b4e9_add (data) {
+            geo_json_4620f54d6da665492b32787f3e78b4e9
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_4620f54d6da665492b32787f3e78b4e9_add({"bbox": [-74.263185, 42.40820699906047, -73.676762, 42.822576999059365], "features": [{"bbox": [-74.263185, 42.40820699906047, -73.676762, 42.822576999059365], "geometry": {"coordinates": [[[-74.263185, 42.42321299906044], [-74.241572, 42.55080199906008], [-74.169725, 42.66742599905977], [-74.180274, 42.729978999059604], [-73.832618, 42.77226299905949], [-73.809369, 42.778868999059476], [-73.726663, 42.822576999059365], [-73.676762, 42.78327699905947], [-73.761265, 42.610378999059904], [-73.773161, 42.50937699906019], [-73.783721, 42.46423099906032], [-74.254303, 42.40820699906047], [-74.263185, 42.42321299906044]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_313144a48ff3946f56761b162f8da41e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71263f54921960882119e04e6bdc1782 = $(`<div id="html_71263f54921960882119e04e6bdc1782" style="width: 100.0%; height: 100.0%;">Albany City & County NY</div>`)[0];
+                popup_313144a48ff3946f56761b162f8da41e.setContent(html_71263f54921960882119e04e6bdc1782);
+            
+        
+
+        geo_json_4620f54d6da665492b32787f3e78b4e9.bindPopup(popup_313144a48ff3946f56761b162f8da41e)
+        ;
+
+        
+    
+    
+        function geo_json_7ba7a17ddc74b28d6a402f0be88d27ad_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_7ba7a17ddc74b28d6a402f0be88d27ad_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_7ba7a17ddc74b28d6a402f0be88d27ad = L.geoJson(null, {
+                onEachFeature: geo_json_7ba7a17ddc74b28d6a402f0be88d27ad_onEachFeature,
+            
+                style: geo_json_7ba7a17ddc74b28d6a402f0be88d27ad_styler,
+        });
+
+        function geo_json_7ba7a17ddc74b28d6a402f0be88d27ad_add (data) {
+            geo_json_7ba7a17ddc74b28d6a402f0be88d27ad
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_7ba7a17ddc74b28d6a402f0be88d27ad_add({"bbox": [-121.347053956004, 34.8975759991143, -119.472719, 35.79518620291916], "features": [{"bbox": [-121.347053956004, 34.8975759991143, -119.472719, 35.79518620291916], "geometry": {"coordinates": [[[-121.347053956004, 35.79518620291916], [-120.194146, 35.78920399910462], [-120.193918, 35.61435899910646], [-120.085922, 35.614523999106446], [-120.086674, 35.52655399910738], [-119.913659, 35.43926199910832], [-119.880045, 35.43913299910832], [-119.880172, 35.35121099910927], [-119.809346, 35.35086499910928], [-119.809449, 35.26358399911022], [-119.666663, 35.262526999110236], [-119.667056, 35.17480899911119], [-119.553641, 35.179974999111145], [-119.560975, 35.08767299911216], [-119.472719, 35.07688499911228], [-119.472754, 34.901173999114256], [-119.535757, 34.8975759991143], [-119.672963, 34.97337499911343], [-119.745566, 34.97367599911343], [-119.928419, 35.05979399911247], [-119.980122, 35.057572999112494], [-120.082084, 35.114677999111855], [-120.167616, 35.075296999112304], [-120.188383, 35.030377999112794], [-120.334548, 35.006314999113066], [-120.301827, 34.905570999114204], [-120.435473, 34.986758999113285], [-120.496222, 34.99315499911322], [-120.65030521184, 34.975166301382124], [-120.63357, 35.033084999112766], [-120.629583, 35.07836199911226], [-120.635787, 35.123804999111755], [-120.675074, 35.15306099911144], [-120.714185, 35.17599799911118], [-120.756086, 35.16045899911135], [-120.846674, 35.204428999110874], [-120.89679, 35.247876999110396], [-120.87957, 35.29418399910989], [-120.862133, 35.36076299910916], [-120.884757, 35.430195999108406], [-120.955863, 35.45374299910816], [-121.003359, 35.46070999910808], [-121.11424, 35.5717199991069], [-121.166712, 35.635398999106236], [-121.272322, 35.666710999105895], [-121.314632, 35.71330999910542], [-121.332449, 35.78310599910468], [-121.347053956004, 35.79518620291916]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_72d1b26b3eca125304fcba17689e795e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45193fab4402e6be2774082bda26c9d6 = $(`<div id="html_45193fab4402e6be2774082bda26c9d6" style="width: 100.0%; height: 100.0%;">San Luis Obispo County CA</div>`)[0];
+                popup_72d1b26b3eca125304fcba17689e795e.setContent(html_45193fab4402e6be2774082bda26c9d6);
+            
+        
+
+        geo_json_7ba7a17ddc74b28d6a402f0be88d27ad.bindPopup(popup_72d1b26b3eca125304fcba17689e795e)
+        ;
+
+        
+    
+    
+        function geo_json_3c0f6512c3ad770eaf5183b908f008a9_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_3c0f6512c3ad770eaf5183b908f008a9_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_3c0f6512c3ad770eaf5183b908f008a9 = L.geoJson(null, {
+                onEachFeature: geo_json_3c0f6512c3ad770eaf5183b908f008a9_onEachFeature,
+            
+                style: geo_json_3c0f6512c3ad770eaf5183b908f008a9_styler,
+        });
+
+        function geo_json_3c0f6512c3ad770eaf5183b908f008a9_add (data) {
+            geo_json_3c0f6512c3ad770eaf5183b908f008a9
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_3c0f6512c3ad770eaf5183b908f008a9_add({"bbox": [-80.519425, 41.849562989621596, -79.6108357749867, 42.2698599990609], "features": [{"bbox": [-80.519425, 41.849562989621596, -79.6108357749867, 42.2698599990609], "geometry": {"coordinates": [[[-80.519425, 41.97752299906184], [-80.329976, 42.03616799906165], [-80.154084, 42.114756999061385], [-80.136213, 42.14993699906128], [-80.088512, 42.1731839990612], [-80.020323, 42.16311599906122], [-79.923924, 42.2075459990611], [-79.844661, 42.235485999061005], [-79.761951, 42.2698599990609], [-79.761313, 41.99880799906178], [-79.6108357749867, 41.99851990317016], [-79.612072, 41.850055999062285], [-80.5193967266905, 41.849562989621596], [-80.519425, 41.97752299906184]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_1b140f48ed3d94c8a7b4390751c5f0b8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8eeac8480f19110c48468eb110002e8 = $(`<div id="html_c8eeac8480f19110c48468eb110002e8" style="width: 100.0%; height: 100.0%;">Erie City & County PA</div>`)[0];
+                popup_1b140f48ed3d94c8a7b4390751c5f0b8.setContent(html_c8eeac8480f19110c48468eb110002e8);
+            
+        
+
+        geo_json_3c0f6512c3ad770eaf5183b908f008a9.bindPopup(popup_1b140f48ed3d94c8a7b4390751c5f0b8)
+        ;
+
+        
+    
+    
+        function geo_json_f24db9462620b0f100817c4c85b33a07_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_f24db9462620b0f100817c4c85b33a07_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_f24db9462620b0f100817c4c85b33a07 = L.geoJson(null, {
+                onEachFeature: geo_json_f24db9462620b0f100817c4c85b33a07_onEachFeature,
+            
+                style: geo_json_f24db9462620b0f100817c4c85b33a07_styler,
+        });
+
+        function geo_json_f24db9462620b0f100817c4c85b33a07_add (data) {
+            geo_json_f24db9462620b0f100817c4c85b33a07
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_f24db9462620b0f100817c4c85b33a07_add({"bbox": [-74.000108, 41.438904999063844, -73.487314, 42.0787779990615], "features": [{"bbox": [-74.000108, 41.438904999063844, -73.487314, 42.0787779990615], "geometry": {"coordinates": [[[-74.000108, 41.45654899906377], [-73.953307, 41.58997699906326], [-73.941081, 41.7359929990627], [-73.964413, 41.913147999062055], [-73.929626, 42.0787779990615], [-73.71093, 42.00548799906176], [-73.527072, 41.97797999906183], [-73.4896799420321, 42.05379770864828], [-73.487314, 42.049637999061595], [-73.52967771430129, 41.5271610201918], [-73.579783, 41.52646099906351], [-73.673285, 41.51470099906354], [-73.933775, 41.48827899906365], [-73.981486, 41.438904999063844], [-74.000108, 41.45654899906377]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_acc7d2d001dd455f9092b3fca24467e2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef67fd7f5ac59799e4aceaad6cbba618 = $(`<div id="html_ef67fd7f5ac59799e4aceaad6cbba618" style="width: 100.0%; height: 100.0%;">Poughkeepsie/Dutchess County NY</div>`)[0];
+                popup_acc7d2d001dd455f9092b3fca24467e2.setContent(html_ef67fd7f5ac59799e4aceaad6cbba618);
+            
+        
+
+        geo_json_f24db9462620b0f100817c4c85b33a07.bindPopup(popup_acc7d2d001dd455f9092b3fca24467e2)
+        ;
+
+        
+    
+    
+        function geo_json_cda80d78340b322d20bc55909bbc9ccc_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillColor": "blue"};
+            }
+        }
+
+        function geo_json_cda80d78340b322d20bc55909bbc9ccc_onEachFeature(feature, layer) {
+            layer.on({
+            });
+        };
+        var geo_json_cda80d78340b322d20bc55909bbc9ccc = L.geoJson(null, {
+                onEachFeature: geo_json_cda80d78340b322d20bc55909bbc9ccc_onEachFeature,
+            
+                style: geo_json_cda80d78340b322d20bc55909bbc9ccc_styler,
+        });
+
+        function geo_json_cda80d78340b322d20bc55909bbc9ccc_add (data) {
+            geo_json_cda80d78340b322d20bc55909bbc9ccc
+                .addData(data)
+                .addTo(map_1ed61fc84a65d203cddcf33b3eeb129f);
+        }
+            geo_json_cda80d78340b322d20bc55909bbc9ccc_add({"bbox": [-123.23100126057801, 42.003048999061754, -122.28273, 42.996631999058955], "features": [{"bbox": [-123.23100126057801, 42.003048999061754, -122.28273, 42.996631999058955], "geometry": {"coordinates": [[[-123.23100126057801, 42.004970061317756], [-123.229619, 42.702609999059675], [-123.152233, 42.75583499905954], [-123.009765, 42.75214399905955], [-122.951199, 42.77477299905948], [-122.794776, 42.778220999059464], [-122.677181, 42.881079999059224], [-122.560299, 42.924689999059126], [-122.460224, 42.93987299905909], [-122.401025, 42.996631999058955], [-122.28273, 42.99649899905896], [-122.284689, 42.474499999060285], [-122.28776, 42.44028699906039], [-122.289749096157, 42.00776472955833], [-122.501135, 42.008459999061735], [-122.80008, 42.004070999061746], [-123.045254, 42.003048999061754], [-123.145959, 42.00924699906173], [-123.23100126057801, 42.004970061317756]]], "type": "Polygon"}, "id": "0", "properties": {}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+        var popup_449362c6a87c26f5200a4baac1f41ad3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2f0118ab69ce08ef0828c20abac136ec = $(`<div id="html_2f0118ab69ce08ef0828c20abac136ec" style="width: 100.0%; height: 100.0%;">Medford, Ashland/Jackson County OR</div>`)[0];
+                popup_449362c6a87c26f5200a4baac1f41ad3.setContent(html_2f0118ab69ce08ef0828c20abac136ec);
+            
+        
+
+        geo_json_cda80d78340b322d20bc55909bbc9ccc.bindPopup(popup_449362c6a87c26f5200a4baac1f41ad3)
+        ;
+
+        
+    
+</script>
+</html>
